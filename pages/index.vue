@@ -1,7 +1,13 @@
 <template>
   <div class="page-index">
-    <div class="container">
-      <BlogSection :blogs="blogs"/>
+    <div class="container container--center hero">
+      <span class="icon">👨‍💼</span>
+      <h1 class="title">
+        Andrew Brindle
+      </h1>
+      <h3 class="subtitle">
+        Under Construction - we'll have this beauty up in no time!
+      </h3>
     </div>
   </div>
 </template>
@@ -61,3 +67,23 @@
     }
   }
 </script>
+
+<style lang="scss">
+.hero {
+  background: #F8F991;
+  color: #333;
+
+  .icon {
+    font-size: 10rem;
+  }
+
+  .title {
+    font-size: 5rem;
+    margin: 0 0 1rem;
+  }
+
+  .subtitle {
+    opacity: 0.5;
+  }
+}
+</style>
